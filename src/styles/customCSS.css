@@ -1,0 +1,70 @@
+/* Set all headers to black */
+.header {
+    color: black;
+  }
+
+
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 450px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto; 
+  }
+  .header-text {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .logo-icon {
+    color: black; 
+  }
+  .nav-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    background-color: #2980b9;
+  }
+  
+
+  .box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+
+  .box-button {
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .box-button:hover {
+    background-color: #27ae60;
+  }
+  
